@@ -86,20 +86,4 @@ footer {
   margin: 10px;
   background-color: white;
 }
-@media only screen and (max-width: 1000px) {
-  .set {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 
-  .drum {
-    width: 45%; /* Two drums per row with some space between */
-    margin: 5px; /* Adjust spacing between drums */
-    font-size: 3rem; /* Adjust drum size for smaller screens */
-    height: 100px; /* Adjust drum height for smaller screens */
-    background-repeat: no-repeat; /* Prevent background image repetition */
-    background-size: contain; /* Ensure background image fits within the button */
-    background-position: center; /* Center the background image */
-  }
-}
