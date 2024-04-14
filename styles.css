@@ -86,3 +86,17 @@ footer {
   margin: 10px;
   background-color: white;
 }
+@media only screen and (max-width: 768px) {
+  .set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .drum {
+    width: 45%; /* Two drums per row with some space between */
+    margin: 5px; /* Adjust spacing between drums */
+    font-size: 3rem; /* Adjust drum size for smaller screens */
+    height: 100px; /* Adjust drum height for smaller screens */
+  }
+}
